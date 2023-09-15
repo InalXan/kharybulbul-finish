@@ -14,6 +14,10 @@ router.get('/gallery', (req, res) => {
 	res.render('gallery', {title: 'Khary bulbul - Chocolate house'});
 });
 
+router.get('/interier', (req, res) => {
+	res.render('interier', {title: 'Khary bulbul - Chocolate house'});
+});
+
 router.get('/category', (req, res) => {
 	res.render('category', {title: 'Khary bulbul - Chocolate house'});
 });
