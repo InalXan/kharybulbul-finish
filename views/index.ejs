@@ -3,9 +3,15 @@
 
 <head>
 <%-include('./inc/libcss.ejs')%>
+<style>
+    .brand-item img{
+        width: 600px;
+    }
+</style>
 </head>
 
 <body>   
+    
                   <%-include('./inc/nav.ejs')%>
 
     <!-- Slider Section Strat -->
@@ -20,8 +26,8 @@
                         <!-- Slider Content Start -->
                         <div class="slider-content text-center mx-auto">
                             <img class="slider-content__shape" width="95" height="108" src="assets/images/gold_logo.jpg" style="border-radius: 50%;" alt="Shape">
-                            <h1 class="slider-content__title text-white">Welcome Kharybulbul </h1>
-                            <a class="slider-content__btn btn btn-primary btn-hover-black" href="#discover">Discover Now </a>
+                            <h1 class="slider-content__title text-white">Xarı Bülbül'ə Xoş Gəlmisiniz </h1>
+                            <a class="slider-content__btn btn btn-primary btn-hover-black" href="#discover">İndi Kəşf Edin </a>
                         </div>
                         <!-- Slider Content Start -->
 
@@ -36,8 +42,8 @@
                         <!-- Slider Content Start -->
                         <div class="slider-content text-center custom-ms-01">
                             <img class="slider-content__shape" width="95" height="62" src="assets/images/gold_logo.jpg" style="border-radius: 50%;"  alt="Shape">
-                            <h1 class="slider-content__title text-white">Taste That Lasts Forever </h1>
-                            <a class="slider-content__btn btn btn-primary btn-hover-black" href="/contact">Order Now </a>
+                            <h1 class="slider-content__title text-white">Dadlı Şokoladların Məkanı</h1>
+                            <a class="slider-content__btn btn btn-primary btn-hover-black" href="/contact">Əlaqə </a>
                         </div>
                         <!-- Slider Content Start -->
 
@@ -50,6 +56,98 @@
         </div>
     </div>
     <!-- Slider Section End -->
+    <!-- Brand Section Strat -->
+    <div class="brand-section">
+        <div class="container">
+
+            <!-- Brand Action Strat -->
+            <div class="brand-active">
+                
+            <!-- Section Title Strat -->
+            <div class="section-title text-center max-width-720 mx-auto" id="discover">
+                <h2 class="section-title__title">Kategoriyalar</h2>
+                <p>Xarı Bülbül</p>
+            </div>
+            <!-- Section Title End -->
+                <div class="swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                                
+                            <img src="assets/images/category/cat1.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                        <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                                <img src="assets/images/category/cat2.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                        <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat3.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                        <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                                <img src="assets/images/category/cat4.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                        <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat5.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                                             <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat6.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                                             <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat7.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                                             <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat8.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                                             <!-- Brand Item Strat -->
+                        <div class="swiper-slide brand-item">
+                            <a href="/category">
+                            <img src="assets/images/category/cat9.jpeg" alt="Brand">
+                            </a>
+                        </div>
+                        <!-- Brand Item End -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- Brand Action End -->
 
     <!-- Product Section Strat -->
     <div class="section-padding-01">
@@ -57,8 +155,8 @@
 
             <!-- Section Title Strat -->
             <div class="section-title text-center max-width-720 mx-auto" id="discover">
-                <h2 class="section-title__title">Discover Kharybulbul</h2>
-                <p>Khary bulbul</p>
+                <h2 class="section-title__title">Xarı Bülbülü Kəşf edin</h2>
+                <p>Xarı Bülbül</p>
             </div>
             <!-- Section Title End -->
 
@@ -72,8 +170,8 @@
                         </div>
                         <div class="product-item__content pb-3">
                             <h5 class="product-item__title"><a href="/gallery">
-                            Different Type Chocolates</a></h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            Müxtəlif Növ Şokoladlar</a></h5>
+                            <p>Birbirindən Möhtəşəm və Fərqli Təamlara Sahib Şokoladlarımızı Kəşf Edin.</p>
                             <a href="/gallery" class="product-item__arrow"><img width="40" height="15" src="assets/images/arrow.svg" alt="arrow"></a>
                         </div>
                     </div>
@@ -87,9 +185,9 @@
                             <a href="/interier"><img width="350" height="350" src="assets/images/product/discover-2.jpg" alt="Product"></a>
                         </div>
                         <div class="product-item__content pb-3">
-                            <h5 class="product-item__title"><a href="/interier">Elegant Cafe</a></h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit.</p>
-                            <a href="single-product.html" class="product-item__arrow"><img width="40" height="15" src="assets/images/arrow.svg" alt="arrow"></a>
+                            <h5 class="product-item__title"><a href="https://l.instagram.com/?u=https%3A%2F%2Fxaribulbul.clopos.menu%2Fmenu%2F%3Fv%3D1&e=AT1cUkTvW1IX64foAM1JS5i2q7x17j219cJX4h4uFK4_qrRJ3-UN5rj9vtYuo7-1p_nTGrehxRdsutyV2j47Qc0gvNAZouA5oTWq4w">Kafe</a></h5>
+                            <p>Xarı Bülbülün Elegant Lux Kafesini Zəngin Menyusu İlə Birlikdə Kəşf Edin</p>
+                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fxaribulbul.clopos.menu%2Fmenu%2F%3Fv%3D1&e=AT1cUkTvW1IX64foAM1JS5i2q7x17j219cJX4h4uFK4_qrRJ3-UN5rj9vtYuo7-1p_nTGrehxRdsutyV2j47Qc0gvNAZouA5oTWq4w" class="product-item__arrow"><img width="40" height="15" src="assets/images/arrow.svg" alt="arrow"></a>
                         </div>
                     </div>
                     <!-- Product Item End -->
@@ -105,9 +203,9 @@
                             </ul>
                         </div>
                         <div class="product-item__content pb-3">
-                            <h5 class="product-item__title"><a href="https://xaribulbul.clopos.menu/menu/?v=1">Delicious Cookie</a></h5>
-                            <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="single-product.html" class="product-item__arrow"><img width="40" height="15" src="assets/images/arrow.svg" alt="arrow"></a>
+                            <h5 class="product-item__title"><a href="https://www.instagram.com/kharybulbul.restaurants/">Fərqli Təamlar</a></h5>
+                            <p>Menyumuza Daxil Olan Yeni Təamlardan Xəbər Alın</p>
+                            <a href="https://www.instagram.com/kharybulbul.restaurants/" class="product-item__arrow"><img width="40" height="15" src="assets/images/arrow.svg" alt="arrow"></a>
                         </div>
                     </div>
                     <!-- Product Item End -->
@@ -126,10 +224,10 @@
                 <div class="col-lg-6">
                     <!-- Call to Action box Strat -->
                     <div class="call-to-action-box">
-                        <h3 class="call-to-action-box__title text-white"><span>Come with us</span></h3>
+                        <h3 class="call-to-action-box__title text-white"><span>Kategoriyalara Baxın</span></h3>
                         <ul class="call-to-action-box__list text-white">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <u>luctus sem eu dapibus.</u></li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, beatae mollitia ab non cumque ut? Accusantium placeat vero hic, </li>
+                            <li></u></li>
+                            <li></li>
                         </ul>
                     </div>
                     <!-- Call to Action box End -->
@@ -137,7 +235,7 @@
                 <div class="col-lg-6">
                     <!-- Call to Action box Start -->
                     <div class="call-to-action-more text-center position-relative">
-                        <a class="call-to-action-more__arrow text-white lh-1" href="contact.html"><i class="lastudioicon-arrow-right"></i></a>
+                        <a class="call-to-action-more__arrow text-white lh-1" href="/category"><i class="lastudioicon-arrow-right"></i></a>
 
                         <div class="position-absolute top-50 start-50 translate-middle">
                             <img class="call-to-action-more__svg" src="assets/images/svg-text.svg" alt="Svg Text">
@@ -152,49 +250,6 @@
     </div>
     <!-- Call to Action Section End -->
 
-    <!-- Brand Section Strat -->
-    <div class="brand-section">
-        <div class="container">
-
-            <!-- Brand Action Strat -->
-            <div class="brand-active">
-                <div class="swiper">
-                    <div class="swiper-wrapper align-items-center">
-
-                        <!-- Brand Item Strat -->
-                        <div class="swiper-slide brand-item">
-                            <img src="assets/images/brand/partner-1.png" alt="Brand">
-                        </div>
-                        <!-- Brand Item End -->
-
-                        <!-- Brand Item Strat -->
-                        <div class="swiper-slide brand-item">
-                            <img src="assets/images/brand/partner-2.png" alt="Brand">
-                        </div>
-                        <!-- Brand Item End -->
-
-                        <!-- Brand Item Strat -->
-                        <div class="swiper-slide brand-item">
-                            <img src="assets/images/brand/partner-3.png" alt="Brand">
-                        </div>
-                        <!-- Brand Item End -->
-
-                        <!-- Brand Item Strat -->
-                        <div class="swiper-slide brand-item">
-                            <img src="assets/images/brand/partner-4.png" alt="Brand">
-                        </div>
-                        <!-- Brand Item End -->
-
-                        <!-- Brand Item Strat -->
-                        <div class="swiper-slide brand-item">
-                            <img src="assets/images/brand/partner-5.png" alt="Brand">
-                        </div>
-                        <!-- Brand Item End -->
-
-                    </div>
-                </div>
-            </div>
-            <!-- Brand Action End -->
 
         </div>
     </div>
@@ -207,8 +262,8 @@
                 <!-- Banner Item Strat -->
                 <a href="/category" class="banner-item" style="background-image: url(assets/images/product/set-1.jpg);">
                     <div class="banner-item__content">
-                        <h3 class="banner-item__title text-white">Chocolate Boxes</h3>
-                        <span class="banner-item__btn text-white">Look Now</span>
+                        <h3 class="banner-item__title text-white">Şkolad Qutuları</h3>
+                        <span class="banner-item__btn text-white">İndi Baxın</span>
                     </div>
                     <div class="banner-item__badge text-white">01.</div>
                 </a>
@@ -218,8 +273,8 @@
                 <!-- Banner Item Strat -->
                 <a href="/gallery" class="banner-item" style="background-image: url(assets/images/product/set-4.jpg);">
                     <div class="banner-item__content">
-                        <h3 class="banner-item__title text-white">Chocolates</h3>
-                        <span class="banner-item__btn text-white">Look Now</span>
+                        <h3 class="banner-item__title text-white">Şkoladlar</h3>
+                        <span class="banner-item__btn text-white">İndi Baxın</span>
                     </div>
                     <div class="banner-item__badge text-white">02.</div>
                 </a>
@@ -229,8 +284,8 @@
                 <!-- Banner Item Strat -->
                 <a href="https://xaribulbul.clopos.menu/menu/?v=1&fbclid=PAAabZhh2vZleO_vLeve1Sa28k7jr0nMzwveqeNzPP13Le02tqQLBxcPD7rOM" class="banner-item" style="background-image: url(assets/images/product/menu-discover-7.jpg);">
                     <div class="banner-item__content">
-                        <h3 class="banner-item__title text-white">Delicious Menu</h3>
-                        <span class="banner-item__btn text-white">Look Now</span>
+                        <h3 class="banner-item__title text-white">Dadlı Menyu</h3>
+                        <span class="banner-item__btn text-white">İndi Baxın</span>
                     </div>
                     <div class="banner-item__badge text-white">03.</div>
                 </a>
@@ -240,8 +295,8 @@
                 <!-- Banner Item Strat -->
                 <a href="/interier" class="banner-item" style="background-image: url(assets/images/product/menu-discover-4.jpg);">
                     <div class="banner-item__content">
-                        <h3 class="banner-item__title text-white">Beaitiful Interier</h3>
-                        <span class="banner-item__btn text-white">Look Now</span>
+                        <h3 class="banner-item__title text-white">Gözəl İnteryer</h3>
+                        <span class="banner-item__btn text-white">İndi Baxın</span>
                     </div>
                     <div class="banner-item__badge text-white">04.</div>
                 </a>
@@ -260,10 +315,10 @@
             <div class="container">
                 <!-- Call to Action Section Strat -->
                 <div class="call-to-action-02-content text-center">
-                    <h4 class="call-to-action-02-content__sub-title text-primary">Khary bulbul</h4>
-                    <h2 class="call-to-action-02-content__title text-white mt-1">The most amazing chocolates</h2>
-                    <p class="mt-6 text-white">Different most amazing chocolates</p>
-                    <a class="btn btn-outline-white btn-hover-primary" href="/contact">Order Now</a>
+                    <h4 class="call-to-action-02-content__sub-title text-primary">Xarı Bülbül</h4>
+                    <h2 class="call-to-action-02-content__title text-white mt-1">Çoxlu Möhtəşəm Şkoladlar</h2>
+                    <p class="mt-6 text-white">Kəşf Edin</p>
+                    <a class="btn btn-outline-white btn-hover-primary" href="/contact">Sifariş Verin</a>
                 </div>
                 <!-- Call to Action Section End -->
             </div>
@@ -281,7 +336,7 @@
                                 <div class="call-to-action-02-meta-item__icon text-primary">
                                     <i class="dlicon tech_mobile"></i>
                                 </div>
-                                <div class="call-to-action-02-meta-item__text text-white">Contact us</div>
+                                <div class="call-to-action-02-meta-item__text text-white">Əlaqə Saxlayın</div>
                             </a>
                         </div>
                         <!-- Call to Action Meta End -->
@@ -289,11 +344,11 @@
                     <div class="col-md-4">
                         <!-- Call to Action Meta Strat -->
                         <div class="call-to-action-02-meta-item text-center">
-                            <a href="https://wa.me/994502024003">
+                            <a href="https://wa.me/994508558866">
                                 <div class="call-to-action-02-meta-item__icon text-primary">
                                     <i class="dlicon shopping_bag-09"></i>
                                 </div>
-                                <div class="call-to-action-02-meta-item__text text-white">Order Now</div>
+                                <div class="call-to-action-02-meta-item__text text-white">Sifariş Verin</div>
                             </a>
                         </div>
                         <!-- Call to Action Meta End -->
@@ -305,7 +360,7 @@
                                 <div class="call-to-action-02-meta-item__icon text-primary">
                                     <i class="lastudioicon lastudioicon-pin-3-2"></i>
                                 </div>
-                                <div class="call-to-action-02-meta-item__text text-white">Store Location</div>
+                                <div class="call-to-action-02-meta-item__text text-white">Kafenin Lokasiyası</div>
                             </a>
                         </div>
                         <!-- Call to Action Meta End -->
@@ -451,27 +506,6 @@
         </div>
     </div>
     <!-- Instagram Section End -->
-
-    <!-- Newsletter Section Strat -->
-    <div class="newsletter-section" style="background-image: url(assets/images/newsletter-bg.jpg);">
-        <div class="container">
-
-            <!-- Newsletter Section Strat -->
-            <div class="newsletter text-center">
-                <h2 class="newsletter__title text-white">Stay in touch & get 10% off</h2>
-
-                <div class="newsletter__form">
-                    <form action="#">
-                        <input class="newsletter__field" type="text" placeholder="Your email address">
-                        <button class="newsletter__btn">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <!-- Newsletter Section End -->
-
-        </div>
-    </div>
-    <!-- Newsletter Section End -->
 
     <!-- Scroll Top Start -->
     <a href="#" class="scroll-top" id="scroll-top">
